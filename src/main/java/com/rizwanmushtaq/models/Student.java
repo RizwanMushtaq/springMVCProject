@@ -1,11 +1,15 @@
 package com.rizwanmushtaq.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Student {
   private int id;
   private String name;
   private int age;
   private String email;
   private String address;
+  @JsonIgnore
   private String phoneNumber;
 
   public int getId() {
@@ -48,10 +52,12 @@ public class Student {
     this.email = email;
   }
 
+  @JsonProperty
   public String getPhoneNumber() {
     return phoneNumber;
   }
 
+  @JsonIgnore
   public void setPhoneNumber(String phoneNumber) {
     this.phoneNumber = phoneNumber;
   }
