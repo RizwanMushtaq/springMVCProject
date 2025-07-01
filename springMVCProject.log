@@ -191,3 +191,5 @@
 2025-07-01T16:20:30.217+02:00  WARN 6256 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a warning message for product ID: 188885 and Name: iPhone
 2025-07-01T16:20:30.217+02:00 ERROR 6256 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is an error message for product ID: 188885 and Name: iPhone
 2025-07-01T16:20:30.218+02:00 DEBUG 6256 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a debug message for product ID: 188885 and Name: iPhone
+2025-07-01T16:47:48.712+02:00  INFO 6256 --- [springMVCProject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T16:47:48.779+02:00  INFO 6256 --- [springMVCProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
