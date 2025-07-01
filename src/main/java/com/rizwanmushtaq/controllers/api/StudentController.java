@@ -1,6 +1,8 @@
 package com.rizwanmushtaq.controllers.api;
 
 import com.rizwanmushtaq.models.Student;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -25,8 +27,10 @@ public class StudentController {
    *
    */
   @PostMapping("/create")
-  public Student createStudent(@RequestBody Student student) {
+  public ResponseEntity createStudent(@RequestBody Student student) {
     System.out.println(student);
-    return student;
+    ResponseEntity<Student> responseEntity = new ResponseEntity<>(student,
+        HttpStatus.CREATED);
+    return responseEntity;
   }
 }
