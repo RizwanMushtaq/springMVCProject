@@ -1,23 +1,32 @@
 package com.rizwanmushtaq.controllers.api;
 
 import com.rizwanmushtaq.models.Student;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/student")
 public class StudentController {
+  @GetMapping("/students")
+  public List<Student> getStudents() {
+    System.out.println("Fetching students from API");
+    return List.of(
+        new Student(), new Student(), new Student(), new Student(), new Student()
+    );
+  }
+
   /*
    * This method is used to create a new student.
    * It accepts a JSON object representing the student details.
    * json ---> java object ==> deserialization
+   * At return, it converts the java object back to JSON ==> serialization
+   * This serialization and deserialization is handled by Jackson library
    *
    */
   @PostMapping("/create")
-  public String createStudent(@RequestBody Student student) {
+  public Student createStudent(@RequestBody Student student) {
     System.out.println(student);
-    return "Student created successfully: " + student.toString();
+    return student;
   }
 }
