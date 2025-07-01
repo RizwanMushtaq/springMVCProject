@@ -1,0 +1,193 @@
+2025-07-01T16:11:28.701+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Starting SpringMvcProjectApplication using Java 24.0.1 with PID 5780 (D:\coding-projects\learn_spring\springMVCProject\springMVCProject\target\classes started by rizwa in D:\coding-projects\learn_spring\springMVCProject\springMVCProject)
+2025-07-01T16:11:28.702+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T16:11:28.816+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T16:11:28.819+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T16:11:28.819+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T16:11:28.837+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T16:11:28.838+02:00  INFO 5780 --- [springMVCProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 135 ms
+2025-07-01T16:11:28.885+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T16:11:28.892+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T16:11:28.896+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Started SpringMvcProjectApplication in 0.231 seconds (process running for 3729.226)
+2025-07-01T16:11:28.897+02:00  INFO 5780 --- [springMVCProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-01T16:11:33.539+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T16:11:33.539+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T16:11:33.539+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-01T16:11:33.540+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a info message for product ID: 12345 and Name: phone
+2025-07-01T16:11:33.540+02:00  WARN 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a warning message for product ID: 12345 and Name: phone
+2025-07-01T16:11:33.540+02:00 ERROR 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is an error message for product ID: 12345 and Name: phone
+2025-07-01T16:12:28.645+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-4] c.r.controllers.api.productController    : This is a info message for product ID: 188885 and Name: iPhone
+2025-07-01T16:12:28.645+02:00  WARN 5780 --- [springMVCProject] [http-nio-8080-exec-4] c.r.controllers.api.productController    : This is a warning message for product ID: 188885 and Name: iPhone
+2025-07-01T16:12:28.645+02:00 ERROR 5780 --- [springMVCProject] [http-nio-8080-exec-4] c.r.controllers.api.productController    : This is an error message for product ID: 188885 and Name: iPhone
+2025-07-01T16:14:00.047+02:00  INFO 5780 --- [springMVCProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-01T16:14:00.048+02:00  INFO 5780 --- [springMVCProject] [Thread-139] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T16:14:00.055+02:00  INFO 5780 --- [springMVCProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T16:14:00.115+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Starting SpringMvcProjectApplication using Java 24.0.1 with PID 5780 (D:\coding-projects\learn_spring\springMVCProject\springMVCProject\target\classes started by rizwa in D:\coding-projects\learn_spring\springMVCProject\springMVCProject)
+2025-07-01T16:14:00.116+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T16:14:00.209+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T16:14:00.211+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T16:14:00.211+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T16:14:00.228+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T16:14:00.228+02:00  INFO 5780 --- [springMVCProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2025-07-01T16:14:00.263+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T16:14:00.270+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T16:14:00.272+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Started SpringMvcProjectApplication in 0.179 seconds (process running for 3880.603)
+2025-07-01T16:14:00.273+02:00  INFO 5780 --- [springMVCProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-01T16:14:04.504+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T16:14:04.504+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T16:14:04.504+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-01T16:14:04.505+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a info message for product ID: 188885 and Name: iPhone
+2025-07-01T16:14:04.506+02:00  WARN 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a warning message for product ID: 188885 and Name: iPhone
+2025-07-01T16:14:04.506+02:00 ERROR 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is an error message for product ID: 188885 and Name: iPhone
+2025-07-01T16:14:13.649+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-5] c.r.controllers.api.productController    : This is a info message for product ID: 188885 and Name: iPhone
+2025-07-01T16:14:13.649+02:00  WARN 5780 --- [springMVCProject] [http-nio-8080-exec-5] c.r.controllers.api.productController    : This is a warning message for product ID: 188885 and Name: iPhone
+2025-07-01T16:14:13.649+02:00 ERROR 5780 --- [springMVCProject] [http-nio-8080-exec-5] c.r.controllers.api.productController    : This is an error message for product ID: 188885 and Name: iPhone
+2025-07-01T16:15:01.937+02:00  INFO 5780 --- [springMVCProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-07-01T16:15:01.938+02:00  INFO 5780 --- [springMVCProject] [Thread-143] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T16:15:01.949+02:00  INFO 5780 --- [springMVCProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T16:15:02.029+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Starting SpringMvcProjectApplication using Java 24.0.1 with PID 5780 (D:\coding-projects\learn_spring\springMVCProject\springMVCProject\target\classes started by rizwa in D:\coding-projects\learn_spring\springMVCProject\springMVCProject)
+2025-07-01T16:15:02.030+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T16:15:02.158+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T16:15:02.159+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T16:15:02.159+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T16:15:02.177+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T16:15:02.177+02:00  INFO 5780 --- [springMVCProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 146 ms
+2025-07-01T16:15:02.222+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T16:15:02.228+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T16:15:02.231+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Started SpringMvcProjectApplication in 0.225 seconds (process running for 3942.561)
+2025-07-01T16:15:02.232+02:00  INFO 5780 --- [springMVCProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-01T16:15:03.628+02:00  INFO 5780 --- [springMVCProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-07-01T16:15:03.629+02:00  INFO 5780 --- [springMVCProject] [Thread-147] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T16:15:03.638+02:00  INFO 5780 --- [springMVCProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T16:15:03.698+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Starting SpringMvcProjectApplication using Java 24.0.1 with PID 5780 (D:\coding-projects\learn_spring\springMVCProject\springMVCProject\target\classes started by rizwa in D:\coding-projects\learn_spring\springMVCProject\springMVCProject)
+2025-07-01T16:15:03.699+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T16:15:03.772+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T16:15:03.773+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T16:15:03.773+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T16:15:03.784+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T16:15:03.784+02:00  INFO 5780 --- [springMVCProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 84 ms
+2025-07-01T16:15:03.810+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T16:15:03.815+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T16:15:03.817+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Started SpringMvcProjectApplication in 0.13 seconds (process running for 3944.147)
+2025-07-01T16:15:03.817+02:00  INFO 5780 --- [springMVCProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-01T16:15:06.907+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T16:15:06.907+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T16:15:06.908+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-01T16:15:06.912+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-4] c.r.controllers.api.productController    : This is a info message for product ID: 188885 and Name: iPhone
+2025-07-01T16:15:06.912+02:00  WARN 5780 --- [springMVCProject] [http-nio-8080-exec-4] c.r.controllers.api.productController    : This is a warning message for product ID: 188885 and Name: iPhone
+2025-07-01T16:15:06.912+02:00 ERROR 5780 --- [springMVCProject] [http-nio-8080-exec-4] c.r.controllers.api.productController    : This is an error message for product ID: 188885 and Name: iPhone
+2025-07-01T16:16:55.822+02:00  INFO 5780 --- [springMVCProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-01T16:16:55.823+02:00  INFO 5780 --- [springMVCProject] [Thread-151] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T16:16:55.832+02:00  INFO 5780 --- [springMVCProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T16:16:55.892+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Starting SpringMvcProjectApplication using Java 24.0.1 with PID 5780 (D:\coding-projects\learn_spring\springMVCProject\springMVCProject\target\classes started by rizwa in D:\coding-projects\learn_spring\springMVCProject\springMVCProject)
+2025-07-01T16:16:55.892+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T16:16:56.011+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T16:16:56.012+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T16:16:56.012+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T16:16:56.024+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T16:16:56.025+02:00  INFO 5780 --- [springMVCProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 131 ms
+2025-07-01T16:16:56.064+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T16:16:56.071+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T16:16:56.073+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Started SpringMvcProjectApplication in 0.197 seconds (process running for 4056.404)
+2025-07-01T16:16:56.074+02:00  INFO 5780 --- [springMVCProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-01T16:16:59.956+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T16:16:59.957+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T16:16:59.957+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-01T16:16:59.959+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-4] c.r.controllers.api.productController    : This is a info message for product ID: 188885 and Name: iPhone
+2025-07-01T16:16:59.959+02:00  WARN 5780 --- [springMVCProject] [http-nio-8080-exec-4] c.r.controllers.api.productController    : This is a warning message for product ID: 188885 and Name: iPhone
+2025-07-01T16:16:59.959+02:00 ERROR 5780 --- [springMVCProject] [http-nio-8080-exec-4] c.r.controllers.api.productController    : This is an error message for product ID: 188885 and Name: iPhone
+2025-07-01T16:17:36.666+02:00  INFO 5780 --- [springMVCProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-01T16:17:36.667+02:00  INFO 5780 --- [springMVCProject] [Thread-155] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T16:17:36.676+02:00  INFO 5780 --- [springMVCProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T16:17:36.745+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Starting SpringMvcProjectApplication using Java 24.0.1 with PID 5780 (D:\coding-projects\learn_spring\springMVCProject\springMVCProject\target\classes started by rizwa in D:\coding-projects\learn_spring\springMVCProject\springMVCProject)
+2025-07-01T16:17:36.745+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T16:17:36.846+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T16:17:36.847+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T16:17:36.847+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T16:17:36.863+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T16:17:36.864+02:00  INFO 5780 --- [springMVCProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2025-07-01T16:17:36.912+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T16:17:36.920+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T16:17:36.922+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Started SpringMvcProjectApplication in 0.195 seconds (process running for 4097.253)
+2025-07-01T16:17:36.923+02:00  INFO 5780 --- [springMVCProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-01T16:17:47.472+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T16:17:47.473+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T16:17:47.473+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-01T16:17:47.474+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a info message for product ID: 188885 and Name: iPhone
+2025-07-01T16:17:47.475+02:00  WARN 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a warning message for product ID: 188885 and Name: iPhone
+2025-07-01T16:17:47.475+02:00 ERROR 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is an error message for product ID: 188885 and Name: iPhone
+2025-07-01T16:18:39.627+02:00  INFO 5780 --- [springMVCProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-01T16:18:39.628+02:00  INFO 5780 --- [springMVCProject] [Thread-159] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T16:18:39.636+02:00  INFO 5780 --- [springMVCProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T16:18:39.692+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Starting SpringMvcProjectApplication using Java 24.0.1 with PID 5780 (D:\coding-projects\learn_spring\springMVCProject\springMVCProject\target\classes started by rizwa in D:\coding-projects\learn_spring\springMVCProject\springMVCProject)
+2025-07-01T16:18:39.692+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T16:18:39.781+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T16:18:39.781+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T16:18:39.782+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T16:18:39.795+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T16:18:39.795+02:00  INFO 5780 --- [springMVCProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 102 ms
+2025-07-01T16:18:39.820+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T16:18:39.826+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T16:18:39.829+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Started SpringMvcProjectApplication in 0.154 seconds (process running for 4160.159)
+2025-07-01T16:18:39.829+02:00  INFO 5780 --- [springMVCProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-01T16:18:51.754+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T16:18:51.754+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T16:18:51.754+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-01T16:18:51.760+02:00  INFO 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a info message for product ID: 188885 and Name: iPhone
+2025-07-01T16:18:51.761+02:00  WARN 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a warning message for product ID: 188885 and Name: iPhone
+2025-07-01T16:18:51.761+02:00 ERROR 5780 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is an error message for product ID: 188885 and Name: iPhone
+2025-07-01T16:19:06.353+02:00  INFO 5780 --- [springMVCProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-01T16:19:06.354+02:00  INFO 5780 --- [springMVCProject] [Thread-163] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T16:19:06.362+02:00  INFO 5780 --- [springMVCProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T16:19:06.418+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Starting SpringMvcProjectApplication using Java 24.0.1 with PID 5780 (D:\coding-projects\learn_spring\springMVCProject\springMVCProject\target\classes started by rizwa in D:\coding-projects\learn_spring\springMVCProject\springMVCProject)
+2025-07-01T16:19:06.418+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T16:19:06.532+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T16:19:06.533+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T16:19:06.533+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T16:19:06.552+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T16:19:06.552+02:00  INFO 5780 --- [springMVCProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 132 ms
+2025-07-01T16:19:06.596+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T16:19:06.601+02:00  INFO 5780 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T16:19:06.603+02:00  INFO 5780 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Started SpringMvcProjectApplication in 0.202 seconds (process running for 4186.934)
+2025-07-01T16:19:06.605+02:00  INFO 5780 --- [springMVCProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-01T16:19:12.011+02:00  INFO 5780 --- [springMVCProject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T16:19:12.019+02:00  INFO 5780 --- [springMVCProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T16:19:14.265+02:00  INFO 6256 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Starting SpringMvcProjectApplication using Java 24.0.1 with PID 6256 (D:\coding-projects\learn_spring\springMVCProject\springMVCProject\target\classes started by rizwa in D:\coding-projects\learn_spring\springMVCProject\springMVCProject)
+2025-07-01T16:19:14.271+02:00  INFO 6256 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T16:19:14.366+02:00  INFO 6256 --- [springMVCProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01T16:19:14.367+02:00  INFO 6256 --- [springMVCProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01T16:19:16.044+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T16:19:16.071+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T16:19:16.072+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T16:19:16.131+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T16:19:16.131+02:00  INFO 6256 --- [springMVCProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1763 ms
+2025-07-01T16:19:16.840+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T16:19:16.898+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T16:19:16.914+02:00  INFO 6256 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Started SpringMvcProjectApplication in 3.426 seconds (process running for 4.2)
+2025-07-01T16:19:27.180+02:00  INFO 6256 --- [springMVCProject] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T16:19:27.181+02:00  INFO 6256 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T16:19:27.183+02:00  INFO 6256 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-07-01T16:19:27.260+02:00  INFO 6256 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a info message for product ID: 188885 and Name: iPhone
+2025-07-01T16:19:27.261+02:00  WARN 6256 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a warning message for product ID: 188885 and Name: iPhone
+2025-07-01T16:19:27.261+02:00 ERROR 6256 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is an error message for product ID: 188885 and Name: iPhone
+2025-07-01T16:20:25.000+02:00  INFO 6256 --- [springMVCProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-01T16:20:25.005+02:00  INFO 6256 --- [springMVCProject] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T16:20:25.018+02:00  INFO 6256 --- [springMVCProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T16:20:25.110+02:00  INFO 6256 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Starting SpringMvcProjectApplication using Java 24.0.1 with PID 6256 (D:\coding-projects\learn_spring\springMVCProject\springMVCProject\target\classes started by rizwa in D:\coding-projects\learn_spring\springMVCProject\springMVCProject)
+2025-07-01T16:20:25.112+02:00 DEBUG 6256 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-01T16:20:25.112+02:00  INFO 6256 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T16:20:25.443+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T16:20:25.444+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T16:20:25.445+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-01T16:20:25.472+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T16:20:25.472+02:00  INFO 6256 --- [springMVCProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 356 ms
+2025-07-01T16:20:25.576+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01T16:20:25.589+02:00  INFO 6256 --- [springMVCProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T16:20:25.592+02:00  INFO 6256 --- [springMVCProject] [restartedMain] c.r.SpringMvcProjectApplication          : Started SpringMvcProjectApplication in 0.523 seconds (process running for 72.879)
+2025-07-01T16:20:25.595+02:00  INFO 6256 --- [springMVCProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-01T16:20:30.213+02:00  INFO 6256 --- [springMVCProject] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T16:20:30.214+02:00  INFO 6256 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T16:20:30.214+02:00  INFO 6256 --- [springMVCProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-07-01T16:20:30.217+02:00  INFO 6256 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a info message for product ID: 188885 and Name: iPhone
+2025-07-01T16:20:30.217+02:00  WARN 6256 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a warning message for product ID: 188885 and Name: iPhone
+2025-07-01T16:20:30.217+02:00 ERROR 6256 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is an error message for product ID: 188885 and Name: iPhone
+2025-07-01T16:20:30.218+02:00 DEBUG 6256 --- [springMVCProject] [http-nio-8080-exec-2] c.r.controllers.api.productController    : This is a debug message for product ID: 188885 and Name: iPhone

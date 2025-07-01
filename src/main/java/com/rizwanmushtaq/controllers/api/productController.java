@@ -1,10 +1,14 @@
 package com.rizwanmushtaq.controllers.api;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/product")
 public class productController {
+  Logger logger = LoggerFactory.getLogger(productController.class);
+
   /**
    * This method is used to fetch product details.
    * It accepts two parameters: productId and productName.
@@ -51,6 +55,11 @@ public class productController {
                                  required = true
                              ) int id,
                              @PathVariable String productName) {
+    logger.info("This is a info message for product ID: {} and Name: {}", id,
+        productName);
+    logger.warn("This is a warning message for product ID: {} and Name: {}", id, productName);
+    logger.error("This is an error message for product ID: {} and Name: {}", id, productName);
+    logger.debug("This is a debug message for product ID: {} and Name: {}", id, productName);
     System.out.println("Checking product availability for ID: " + id +
         " and Name: " + productName);
     return "Product is available" +
